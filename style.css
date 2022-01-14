@@ -1,0 +1,54 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Top part styles apply */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: azure;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.influ {
+    left: 10.33%;
+    right: 74.79%;
+    top: 2.42%;
+    bottom: 96%;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.about-influ {
+    width: 582px;
+    height: 270px;
+}
+
+.font-size {
+    font-size: 52px;
+}
+
+.button {
+    background-color: #E02C6D;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.color {
+    color: white;
+}
+
+.main-camera img {
+    width: 400px;
+    margin-top: 50px;
+}
