@@ -9,9 +9,18 @@ body {
     background-color: lightgrey;
 }
 
+.top-section {
+    width: 80%;
+    background-color: lime;
+    padding-left: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 .container {
     background-color: honeydew;
     max-width: 1200px;
+    height: 3306px;
     margin: 0 auto;
     padding: 0 30px;
 }
@@ -29,7 +38,7 @@ body {
 }
 
 .about-influ {
-    width: 582px;
+    width: 580px;
     height: 270px;
 }
 
@@ -41,11 +50,6 @@ body {
     background-color: #E02C6D;
     padding: 8px 20px;
     border-radius: 20px;
-}
-
-.button2 {
-    color: #E02C6D;
-    padding: 8px 20px;
 }
 
 .color {
@@ -60,6 +64,11 @@ body {
 
 /* top collection styles */
 
+.top-collection {
+    padding: 0 30px;
+    margin-right: 50px;
+}
+
 .products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -67,7 +76,7 @@ body {
     border-radius: 10px;
 }
 
-h3 {
+h4 {
     text-align: center;
     padding-top: 80px;
     padding-bottom: 30px;
@@ -75,10 +84,10 @@ h3 {
 }
 
 .product {
-    width: 329px;
-    height: 550px;
+    width: 250px;
+    height: 450px;
     background-color: lightyellow;
-    /* border: 1px solid gray; */
+    justify-content: center;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     padding: 10px;
@@ -102,3 +111,40 @@ h2 {
 .fa-star.empty {
     color: #AEAEAE;
 }
+
+
+/* styles third sections */
+
+.end-section {
+    height: 270px;
+    padding-top: 50px;
+    margin-right: 20px;
+}
+
+.padding {
+    width: 75%;
+    padding-right: 40px;
+}
+
+.fonts {
+    font-size: 38px;
+}
+
+.button2 {
+    background-color: #E02C6D;
+    padding: 8px 20px;
+}
+
+.button3 {
+    background-color: honeydew;
+    color: #E02C6D;
+    width: 86%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    border: none;
+    text-align: end;
+    display: inline-block;
+}
+
+.butto {}
