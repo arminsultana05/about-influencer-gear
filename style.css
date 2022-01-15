@@ -6,44 +6,46 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: lightgrey;
+    background-color: gray;
 }
 
 .top-section {
-    width: 80%;
-    background-color: lime;
-    padding-left: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
+    width: 100%;
+    /* background-color: lime; */
+    justify-content: center;
 }
 
 .container {
     background-color: honeydew;
     max-width: 1200px;
-    height: 3306px;
-    margin: 0 auto;
-    padding: 0 30px;
+    height: 2700px;
+    margin: 0 15%;
 }
 
 .influ {
     padding-top: 25px;
-    padding-left: 10px;
+    padding-left: 35px;
 }
 
 .banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
     align-items: center;
     justify-items: center;
+    padding-left: 20px;
 }
 
 .about-influ {
-    width: 580px;
+    width: 100%;
     height: 270px;
+    padding-left: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .font-size {
-    font-size: 52px;
+    font-size: 30px;
 }
 
 .button {
@@ -57,7 +59,8 @@ body {
 }
 
 .main-camera img {
-    width: 400px;
+    width: 442px;
+    height: 300px;
     margin-top: 50px;
 }
 
@@ -72,7 +75,8 @@ body {
 .products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 40px;
+    grid-row-gap: 50px;
+    margin-right: 20px;
     border-radius: 10px;
 }
 
@@ -84,8 +88,8 @@ h4 {
 }
 
 .product {
-    width: 250px;
-    height: 450px;
+    width: 200px;
+    height: 415px;
     background-color: lightyellow;
     justify-content: center;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -147,4 +151,34 @@ h2 {
     display: inline-block;
 }
 
-.butto {}
+
+/* Styles in footers */
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    width: 70%;
+    height: 160px;
+    background-color: #121212;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.font-weight {
+    font-size: 24px;
+}
+
+footer,
+small {
+    display: block;
+    color: #D9DBE1;
+}
+
+.fab {
+    font-size: 20px;
+    margin-right: 10px;
+}
