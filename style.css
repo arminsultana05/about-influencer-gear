@@ -42,6 +42,15 @@ body {
     padding-left: 40px;
     margin-left: 40px;
     margin-right: 40px;
+    border: 1px solid white;
+}
+
+.about-influ:hover {
+    border: 5px solid rgb(40, 126, 155);
+    cursor: pointer;
+    transition-property: border;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 
 .font-size {
@@ -62,6 +71,15 @@ body {
     width: 442px;
     height: 300px;
     margin-top: 50px;
+    border: 1px solid white;
+}
+
+.main-camera img:hover {
+    border: 3px solid rgb(49, 155, 190);
+    width: 460px;
+    height: 300px;
+    transition-property: border, width, height;
+    transition-duration: 2s, 2s, 2s;
 }
 
 
@@ -127,6 +145,7 @@ h2 {
 
 .padding {
     width: 75%;
+    height: 400px;
     padding-right: 40px;
 }
 
@@ -137,6 +156,13 @@ h2 {
 .button2 {
     background-color: #E02C6D;
     padding: 8px 20px;
+}
+
+.button2:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition-property: transform;
+    transition-duration: 2s;
 }
 
 .button3 {
